@@ -9,7 +9,7 @@ services:
     restart: "no"
     volumes:
       - type: bind
-        source: ./data
+        source: /srv/foundry_vtt
         target: /data
     environment:
       - FOUNDRY_PASSWORD=
