@@ -12,9 +12,9 @@ services:
         source: ./data
         target: /data
     environment:
-      - FOUNDRY_PASSWORD=<your_password>
-      - FOUNDRY_USERNAME=<your_username>
-      - FOUNDRY_ADMIN_KEY=atropos
+      - FOUNDRY_PASSWORD=
+      - FOUNDRY_USERNAME=
+      - FOUNDRY_ADMIN_KEY=
       # - CONTAINER_CACHE=/data/container_cache
       # - CONTAINER_PATCHES=/data/container_patches
       # - CONTAINER_PATCH_URLS=
